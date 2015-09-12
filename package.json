@@ -1,0 +1,13 @@
+{
+  "name": "a-2b2t-shit-bot",
+  "description": "Logs in and out of Minecraft servers",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.13.3",
+    "minecraft-protocol": "*",
+    "ws": "0.4.x"
+  }
+}

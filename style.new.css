@@ -1,0 +1,60 @@
+    @font-face {
+      font-family: "Minecraftia-Regular";
+      src: url('Minecraftia-Regular.ttf');
+    }
+    
+    html {
+      height: 100%
+    }
+    
+    body {
+      background-image: url("bg.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      font-family: "Minecraftia-Regular";
+      padding: 15px;
+    }
+    
+    ul {
+      font-family: "Minecraftia-Regular";
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    ul li {
+      line-height: 1.4;
+      font-family: "Minecraftia-Regular";
+    }
+    
+    div.transbox {
+      list-style-type: none;
+      overflow: scroll;
+      position: absolute;
+      left:50px;
+      bottom:50px;
+      height:40%;
+      width:33%;
+      margin: 30px;
+      background-color: black;
+      opacity: 0.6;
+      overflow: scroll;
+      filter: alpha(opacity=60);
+      /* For IE8 and earlier */
+    }
+    
+    div.transbox ul {
+      color: white;
+      font-family: "Minecraftia-Regular";
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      opacity: 1 !important;
+    }
+    
+    div.transbox ul li {
+      color: white;
+      line-height: 1.4;
+      font-family: "Minecraftia-Regular";
+      opacity: 1 !important;
+    }

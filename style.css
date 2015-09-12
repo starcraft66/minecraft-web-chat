@@ -1,0 +1,62 @@
+    @font-face {
+      font-family: "Minecraftia-Regular";
+      src: url('Minecraftia-Regular.ttf');
+    }
+    
+    html, body {
+      height: 100%;
+      position: relative;
+      margin: 0 auto;
+      font-family: "Minecraftia-Regular";
+    }
+    
+    body {
+      background: url("sky2.png") no-repeat center center fixed; 
+      background-size: cover;
+      width: 95%;
+    }
+    
+    ul {
+      font-family: "Minecraftia-Regular";
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    ul li {
+      font-size: 100%;
+      line-height: 1.4;
+      font-family: "Minecraftia-Regular";
+      
+      /* WebKit (Safari/Chrome) Only 
+      -webkit-text-stroke: 1px white;*/
+      
+      text-shadow:
+      /* Simulated effect for Firefox and Opera
+            and nice enhancement for WebKit */
+      2px 2px 8px black; 
+
+    }
+    
+    
+    #footer {
+      height: 40px;
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+    }
+      
+      #messages {
+            list-style-type: none;
+            overflow: scroll;
+            position: absolute;
+            top: 100px;
+            bottom: 0px;
+            width: 100%;
+            padding-left: 0px;
+            margin-left: 0px;
+      }
+
+      ::-webkit-scrollbar {
+            width: 0px !important;
+      }
