@@ -8,6 +8,6 @@
   "dependencies": {
     "express": "^4.13.3",
     "minecraft-protocol": "*",
-    "ws": "0.4.x"
+    "ws": "7.2.x"
   }
 }
